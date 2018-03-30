@@ -57,5 +57,38 @@ public class Main {
 
         if ((topScore > 90) || (secondTopScore <=90))
             System.out.println("One of these tests is true");
+
+        System.out.println("=======================================================================");
+
+        int newValue = 50;
+        if (newValue == 50)
+            System.out.println("This is true");
+
+        boolean isCar = false;
+        if (isCar == true)
+            System.out.println("This is not supposed to happen");
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar)
+            System.out.println("wasCar is true");
+
+        System.out.println("UNDER THIS IS CHALLENGE");
+
+        double firstDouble = 20;
+        double secondDouble = 80;
+        double finalDouble = (firstDouble + secondDouble) * 25;
+        System.out.println("myTotal = " + finalDouble);
+        double remainderDouble = finalDouble % 40;
+
+        System.out.println("=================== " + remainderDouble +" ===================");
+
+        if (remainderDouble <= 20)
+            System.out.println("Total was over the limit");
+        else
+            System.out.println("Total was UNDER the limit");
+
+
+
     }
 }
